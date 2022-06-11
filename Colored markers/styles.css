@@ -1,3 +1,6 @@
+h1{
+    text-align: center;
+}
 div{
     margin: auto;
 }
@@ -6,24 +9,38 @@ div{
     width: 130px;
     height: 30px;
     margin-bottom: 10px;
+    box-shadow: 5px 10px 6px burlywood;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
 }
 .green{
     background-color:rgb(0,255,0);
     width:130px;
     height: 30px;
     margin-bottom: 10px;
+    box-shadow: 5px 10px 6px burlywood;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
 }
 .blue{
     background-color: #0000ff;
     width: 130px;
     height: 30px;
     margin-bottom: 10px;
+    box-shadow: 5px 10px 6px burlywood;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
 }
 .sleeve{
-    width: 50px;
+    width: 90px;
     height: 30px;
-    background: red;
+    background: magenta;
     opacity: 0.8;
     border-left: 10px double black;
-    
+}
+p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
 }
