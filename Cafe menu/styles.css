@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+}
+.desc{
+    text-align: center;
+}
+.desc > p {
+    font-style: italic;
+}
+.menu{
+    margin: auto;
+    background-color: chocolate;
+    border: 3px solid black;
+    width: 400px;
+    text-align: center;
+}
+h3{
+    text-decoration: underline;
+}
+table {
+    margin: auto;
+    padding: 10px;
+}
+table > thead > tr > td {
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+footer{
+    text-align: center;
+}
