@@ -7,6 +7,16 @@ body{
 .desc > p {
     font-style: italic;
 }
+.ball{
+    width: 30px;
+    height: 30px;
+    background:linear-gradient(90deg , chocolate , bisque );
+    margin: auto;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
 .menu{
     margin: auto;
     background-color: chocolate;
